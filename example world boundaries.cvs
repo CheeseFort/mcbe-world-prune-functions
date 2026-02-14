@@ -1,0 +1,4 @@
+dimension,minX,maxX,minZ,maxZ,dimension_id,description
+Overworld,-4000,4000,-4000,4000,0,Main overworld bounds
+Nether,-4000,4000,-4000,4000,1,Main nether bounds
+End,-200,200,-200,200,2,Main end island
