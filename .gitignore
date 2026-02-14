@@ -4,6 +4,13 @@
 # minecraft worlds
 *.mcworld
 
+# boundary files, but not the example files
+/*.csv
+/*.xlsx
+!/example world boundaries.csv
+!/example world boundaries.xlsx
+
+
 
 
 
