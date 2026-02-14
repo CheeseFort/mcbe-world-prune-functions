@@ -3,8 +3,9 @@
 # https://github.com/CheeseFort/mcbe-world-prune-functions
 # Required: tidyverse, readxl
 # 
-# Reads boundary data from an excel boundaries file and writes it to a csv file
-# Example xlsx: https://github.com/CheeseFort/mcbe-world-prune-functions
+# Reads boundary data from an excel boundaries file and writes it to a csv file.
+# Example xlsx file: 
+# https://github.com/CheeseFort/mcbe-world-prune-functions/blob/main/example%20world%20boundaries.xlsx
 ################################################################################
 require(tidyverse)
 require(readxl)

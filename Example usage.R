@@ -22,10 +22,8 @@ safe_coords <- tibble(
 )
 
 # Can use a csv file directly or generate one from an Excel file
-# Example csv: https://github.com/CheeseFort/mcbe-world-prune-functions
-# Example xlsx: https://github.com/CheeseFort/mcbe-world-prune-functions
 excel_file <- "./example world boundaries.xlsx"
-world_boundaries_file <- "./example world boundaries.cvs"
+world_boundaries_file <- "./example world boundaries.csv"
 boundariesFromExceltoCSV(excel_file, world_boundaries_file, data_start_row=6)
 
 ################################################################################  
