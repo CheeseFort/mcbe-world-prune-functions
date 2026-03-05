@@ -7,4 +7,4 @@ Check out [rbedrock's GitHub page](https://github.com/reedacartwright/rbedrock) 
 
 Clone repo using git: `git clone https://github.com/CheeseFort/mcbe-world-prune-functions.git`
 
-[Example usage.R](https://github.com/CheeseFort/mcbe-world-prune-functions/blob/main/Example%20usage.R) and [example world boundaries.xlsx](https://github.com/CheeseFort/mcbe-world-prune-functions/blob/main/example%20world%20boundaries.csv) contain all the information needed to run the scripts.
+[Example usage.R](Example%20usage.R) and [example world boundaries.xlsx](example%20world%20boundaries.csv) contain information and instructions for running the scripts.
