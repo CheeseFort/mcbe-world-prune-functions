@@ -527,10 +527,12 @@ pruneLodestoneData <- function(dbpath, chunks_to_keep, simulate_pruning = F, inv
 
 
 
-# if simulate_pruning is set, data will not be deleted from the world files
-# if inverse_prune is set, prune inside the boundaries instead of outside
-# if no_plot is set, plots of the world will not be computed or saved to disk
-# is skip_backup is set, no backup will be made before pruning (useful if you already have a backup)
+# if simulate_pruning is set to true, calls to delete_values() and put_nbt_data() are not made 
+#   opening and closing the world still alters the world files, so make backups
+# if inverse_prune is set to true, prune inside the boundaries instead of outside
+#   chunks that lie directly on the world boundaries are not pruned in either case
+# if no_plot is set to true, plots of the world will not be computed or saved to disk
+# if skip_backup is set to true, no backup will be made before pruning (eg. you already have a backup)
 fullPruneWorld <- function(dbpath, safe_coords, world_boundaries_csv, simulate_pruning = F,
                            inverse_prune = F, no_plot = F, skip_backup = F) {
   cat("\014") # clear screen
